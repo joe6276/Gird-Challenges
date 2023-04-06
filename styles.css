@@ -1,0 +1,171 @@
+.container{
+    display: flex;
+    justify-content: space-evenly;
+    background-color: #0F0F0F;
+    padding: 10px;
+}
+
+.content-left{
+    width: 10%;
+  
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    padding: 20px;
+}
+
+
+.content-left a{
+    text-decoration: none;
+    color: white;
+}
+.content-right{
+    width: 85%;
+    display: flex;
+    flex-direction: column;
+    gap: 30px;
+}
+
+.search{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+}
+
+.search input{
+    width: 60%;
+    border-radius: 10px;
+    padding: 10px;
+}
+
+.filter{
+    display: flex;
+    gap: 10px;
+    justify-content: center;
+}
+
+.filter a {
+    background-color: #272727;
+    color: white;
+    padding: 5px 10px ;
+    text-decoration: none;
+}
+
+.one{
+    padding: 10px;
+    border-radius: 10px;
+    display: flex;
+    flex-direction: column;
+    background-color: white;
+    grid-area: one;
+}
+
+.one img{
+    width: 100%;
+    height:60%;
+}
+
+.profile{
+    display: flex;
+    gap: 15px;
+    align-items: center;
+}
+
+.profile img{
+    width: 50px;
+    height:50px;
+    border-radius: 10px;
+}
+
+.views {
+    display: flex;
+    gap:20px;
+}
+
+
+.two{
+    padding: 10px;
+    border-radius: 10px;
+    display: flex;
+    flex-direction: column;
+    background-color: white;
+    grid-area: two;
+}
+
+.two img{
+    width: 100%;
+    height:60%;
+}
+
+
+.three{
+    padding: 10px;
+    border-radius: 10px;
+    display: flex;
+    flex-direction: column;
+    background-color: white;
+    grid-area: three;
+}
+
+.three img{
+    width: 100%;
+    height:60%;
+}
+
+
+.four{
+    padding: 10px;
+    border-radius: 10px;
+    display: flex;
+    flex-direction: column;
+    background-color: white;
+    grid-area: four;
+}
+
+.four img{
+    width: 100%;
+    height:60%;
+}
+
+
+.five{
+    padding: 10px;
+    border-radius: 10px;
+    display: flex;
+    flex-direction: column;
+    background-color: white;
+    grid-area: five;
+}
+
+.five img{
+    width: 100%;
+    height:60%;
+}
+
+
+.six{
+    padding: 10px;
+    border-radius: 10px;
+    display: flex;
+    flex-direction: column;
+    background-color: white;
+ 
+}
+
+.six img{
+    width: 100%;
+    height:60%;
+}
+
+
+
+.videos{
+    width: 100%;
+    display: grid;
+    grid-template-columns: repeat(3,1fr);
+     /* grid-template-rows: repeat(2,1fr);  */
+    gap: 10px;
+    /* grid-template-areas: "one two three"
+                         "four six five" */
+                       
+}
